@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelKURSUNUSUZ95 = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.textBoxGaz = new System.Windows.Forms.TextBox();
             this.textBoxYeniProDizel = new System.Windows.Forms.TextBox();
@@ -75,6 +75,7 @@
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.buttonBenzınekle = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -85,12 +86,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.labelGaz);
-            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.YeniProDizel);
             this.groupBox1.Controls.Add(this.label9);
@@ -274,15 +276,6 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Depo Miktar";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(192, 289);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 38);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // progressBar1
             // 
@@ -582,6 +575,16 @@
             this.buttonBenzınekle.UseVisualStyleBackColor = true;
             this.buttonBenzınekle.Click += new System.EventHandler(this.buttonBenzınekle_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(7, 253);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(135, 92);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -613,6 +616,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             this.groupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -634,7 +638,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button btnDepoDoldur;
         private System.Windows.Forms.Label label6;
@@ -666,6 +669,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button buttonBenzınekle;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
