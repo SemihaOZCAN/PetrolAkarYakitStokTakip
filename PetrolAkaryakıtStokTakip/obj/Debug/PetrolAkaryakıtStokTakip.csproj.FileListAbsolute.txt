@@ -1,0 +1,10 @@
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\bin\Debug\PetrolAkaryakıtStokTakip.exe.config
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\bin\Debug\PetrolAkaryakıtStokTakip.exe
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\bin\Debug\PetrolAkaryakıtStokTakip.pdb
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.csproj.AssemblyReference.cache
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.Form1.resources
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.Properties.Resources.resources
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.csproj.GenerateResource.cache
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.csproj.CoreCompileInputs.cache
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.exe
+C:\Users\Semiha\Desktop\PetrolAkaryakıtStokTakip\PetrolAkaryakıtStokTakip\obj\Debug\PetrolAkaryakıtStokTakip.pdb

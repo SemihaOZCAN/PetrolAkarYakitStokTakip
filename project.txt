@@ -1,0 +1,13 @@
+Petrol Akaryakıt StokTakip Programı
+***********************************
+Bu proje bir Petrol Akaryakıt Stok Takip Sistemi'dir. Sistemde farklı benzin türlerinin (Kurşunsuz95, Kurşunsuz97, EuroDizel10, YeniProDizel ve Gaz) stokları görüntülenip güncellenebilir. 
+Ayrıca satış ve depoya akaryakıt ekleme işlemleri yapılabilir. 
+Veriler SQL Server üzerinde saklanmakta ve güncellenmektedir.
+
+Projenin İşleyişi:
+Benzin Stok Bilgisi: Program açıldığında, BenzinListe() fonksiyonu çalıştırılarak her bir benzin türü için fiyat ve stok bilgileri SQL Server’dan çekilerek etiketlere (label) ve ilerleme çubuklarına (progressBar) yansıtılır.
+Satış İşlemi: Kullanıcı, satmak istediği akaryakıt türünü seçip, plaka ve litre bilgilerini girdikten sonra, sistem satış tutarını hesaplar. Satış tamamlandığında:
+Girilen litre miktarı stoğa eklenir.
+Kasa güncellenir.
+Satış bilgileri hareket tablosuna kaydedilir.
+Depoya Benzin Ekleme: Kullanıcı stokları doldurmak isterse, belirli miktarlarda benzin türünü seçip depoya ekleyebilir. Eklenen her miktar için kasa miktarı düşülür, stok güncellenir.
